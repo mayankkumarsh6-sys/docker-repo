@@ -2,7 +2,6 @@ Admin@DESKTOP-LGDR67I MINGW64 ~/gitbash/docker-repo (main|REVERTING)
 $ cat docker_intro
 Docker:
 Docker is a containerization platform used to package an application along with its dependencies, libraries, and configuration into a lightweight, portable container so that it can run consistently across different environments.
-
 Why is Docker used?
 Docker is mainly used to:
 1. Avoid environment issues
@@ -17,15 +16,12 @@ Docker is mainly used to:
    - Applications can run in separate containers without interfering with each other.
 6. Efficient resource usage
    - Containers are lightweight and generally require fewer resources than VMs.
-
-
 Without Docker:
 Developer Machine → Works
        ↓
 Test Server → Dependency issue
        ↓
 Production → Application fails
-
 With Docker:
         Docker Image
              ↓
@@ -34,11 +30,9 @@ With Docker:
 Developer   Test   Production
     ↓        ↓        ↓
 Container Container Container
-
 Note: Docker solves the "It works on my machine" problem.
 It means:
 An application works correctly on one person's computer, but when the same application is moved to another computer/server, it may fail because the environment is different.
-
 ==================>> Simple example <<==========================
 Suppose you develop a Python application on your laptop:
 My Laptop
@@ -46,30 +40,17 @@ Python 3.12
 Library version 2.5
 Ubuntu
 Configuration A
-
 Application → WORKS ✅
-
 You give the application to another server:
 Production Server
 Python 3.9
 Library version 1.8
 Different OS
 Different configuration
-
 Application → FAILS ❌
-
 The developer says:
 "But it works on my machine!"
-
 This is the "works on my machine" problem.
 <<================================================================
-
-
 Interview Answer:
 "Works on my machine" means an application works in the developer's environment but fails in another environment because of differences in OS, software versions, libraries, dependencies, or configuration. Docker helps solve this by packaging the application and its dependencies into a consistent container.
-<<<<<<< HEAD
-this is a docker file
-
-=======
-This is docker file which is used to get code
->>>>>>> c97b27567ae0ea014ff5f32c86a87ab1a18f248a
