@@ -67,5 +67,9 @@ This is the "works on my machine" problem.
 
 Interview Answer:
 "Works on my machine" means an application works in the developer's environment but fails in another environment because of differences in OS, software versions, libraries, dependencies, or configuration. Docker helps solve this by packaging the application and its dependencies into a consistent container.
+<<<<<<< HEAD
 this is a docker file
 
+=======
+This is docker file which is used to get code
+>>>>>>> c97b27567ae0ea014ff5f32c86a87ab1a18f248a
